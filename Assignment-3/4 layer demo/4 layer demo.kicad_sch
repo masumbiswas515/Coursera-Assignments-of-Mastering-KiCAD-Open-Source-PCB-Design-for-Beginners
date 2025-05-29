@@ -1,0 +1,146 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c5e35b0f-6358-4280-8db7-ac44a604ce96")
+	(paper "A4")
+	(title_block
+		(title "Atmega32 Evaluation Board")
+		(date "2025-05-28")
+		(rev "v-1")
+		(company "Masum Biswas")
+	)
+	(lib_symbols)
+	(sheet
+		(at 54.61 77.47)
+		(size 25.4 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "58ed55b1-f9a8-4c6e-aee3-6dba3da0426e")
+		(property "Sheetname" "Power"
+			(at 54.61 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 54.61 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "4 layer demo"
+				(path "/c5e35b0f-6358-4280-8db7-ac44a604ce96"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 198.12 77.47)
+		(size 25.4 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7fd6c6ee-c0a5-4aa0-807f-dc7f433a611f")
+		(property "Sheetname" "Connector"
+			(at 198.12 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connector.kicad_sch"
+			(at 198.12 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "4 layer demo"
+				(path "/c5e35b0f-6358-4280-8db7-ac44a604ce96"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 77.47)
+		(size 26.67 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9fcbd441-823d-4a3d-8010-938dd77cfe3a")
+		(property "Sheetname" "Microcontroller"
+			(at 120.65 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microcontroller.kicad_sch"
+			(at 120.65 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "4 layer demo"
+				(path "/c5e35b0f-6358-4280-8db7-ac44a604ce96"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
